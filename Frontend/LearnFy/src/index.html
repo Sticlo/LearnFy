@@ -1,13 +1,52 @@
 <!doctype html>
-<html lang="en">
+<html lang="es"> <!-- Cambiado a 'es' si el sitio es para hispanohablantes -->
 <head>
   <meta charset="utf-8">
-  <title>LearnFy</title>
+  <title>LearnFy - Aprende de forma Inteligente</title>
   <base href="/">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <meta name="description" content="LearnFy es una plataforma que centraliza contenido educativo y ayuda con el seguimiento de estudio. Aprende de manera más eficiente.">
+  <meta name="keywords" content="aprendizaje, educación, cursos, inteligencia artificial, estudiar online">
+  <meta name="author" content="LearnFy Team">
+  <meta name="robots" content="index, follow"> <!-- Para que Google indexe la página -->
+
+  <!-- Open Graph para compartir en Facebook, LinkedIn -->
+  <meta property="og:title" content="LearnFy - Aprende de forma Inteligente">
+  <meta property="og:description" content="Accede a los mejores contenidos educativos en un solo lugar.">
+  <meta property="og:image" content="https://tu-sitio.com/assets/preview.jpg">
+  <meta property="og:url" content="https://tu-sitio.com">
+  <meta property="og:type" content="website">
+
+  <!-- Twitter Cards para compartir en Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="LearnFy - Aprende de forma Inteligente">
+  <meta name="twitter:description" content="Accede a los mejores contenidos educativos en un solo lugar.">
+  <meta name="twitter:image" content="https://tu-sitio.com/assets/preview.jpg">
+
+  <!-- Favicon y temas de color -->
+  <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
+  <meta name="theme-color" content="#1976d2"> <!-- Color del navegador en móviles -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+
+  <!-- CSS Global (Bootstrap, Tailwind, etc.) -->
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- Carga de fuentes (ejemplo con Google Fonts) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
 </head>
 <body>
   <app-root></app-root>
+
+  <!-- Scripts opcionales -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-XXXXXXXXX-X"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'UA-XXXXXXXXX-X');  // Reemplazar con tu ID de Google Analytics
+  </script>
 </body>
 </html>
